@@ -1,0 +1,27 @@
+@import "normalize.css";
+@import "main-block.css";
+@import url("/fonts/fonts.css");
+@import "products.css";
+@import "benefits.css";
+:root {
+  --blue: #0962e8;
+  --dark-blue: #29374e;
+  --white: #fff;
+  --light-blue: #eff9ff;
+  --black: #000;
+  --dark: #1e2837;
+  --light-blue-second: #cbecff;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Euclid Circular A", sans-serif;
+}
+i {
+  color: #0962e8;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+}
+.container {
+  max-width: 1100px;
+}
